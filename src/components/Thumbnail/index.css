@@ -1,0 +1,23 @@
+.thumbnails-container {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  justify-items: center;
+  width: 500px;
+  gap: 1rem;
+}
+
+.thumbnail-item {
+  list-style-type: none;
+}
+
+.thumbnail-btn {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.thumbnail-img {
+  width: 75px;
+  object-fit: contain;
+}

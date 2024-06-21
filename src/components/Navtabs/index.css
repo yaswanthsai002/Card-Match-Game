@@ -1,0 +1,40 @@
+.tabs-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 1rem;
+}
+
+.tab-item {
+  list-style-type: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.tab-btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.tab-item::after {
+  position: absolute;
+  content: '';
+  bottom: -5px;
+  left: 0;
+  height: 4px;
+  background-color: #fec653;
+  width: 0%;
+}
+
+.active {
+  color: #fec653;
+}
+
+.active::after {
+  width: 100%;
+}
