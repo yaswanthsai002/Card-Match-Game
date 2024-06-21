@@ -2,13 +2,7 @@ In this project, let's build a **Match Game** by applying the concepts we have l
 
 ### Refer to the video below:
 
-<br/>
-<div style="text-align: center;">
-  <video style="max-width:80%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12);outline:none;" loop="true" autoplay="autoplay" controls="controls" muted>
-    <source src="https://assets.ccbp.in/frontend/content/react-js/match-game-output.mp4" type="video/mp4">
-  </video>
-</div>
-<br/>
+https://github.com/yaswanthsai002/Card-Match-Game/assets/57896227/d53baf31-2bb0-4c4d-8152-79fea4770cbc
 
 ### Design Files
 
